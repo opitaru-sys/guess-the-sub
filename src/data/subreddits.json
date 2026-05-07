@@ -1,0 +1,658 @@
+[
+  {
+    "name": "AskReddit",
+    "display": "r/AskReddit"
+  },
+  {
+    "name": "AmItheAsshole",
+    "display": "r/AmItheAsshole"
+  },
+  {
+    "name": "tifu",
+    "display": "r/tifu"
+  },
+  {
+    "name": "offmychest",
+    "display": "r/offmychest"
+  },
+  {
+    "name": "TrueOffMyChest",
+    "display": "r/TrueOffMyChest"
+  },
+  {
+    "name": "confession",
+    "display": "r/confession"
+  },
+  {
+    "name": "relationship_advice",
+    "display": "r/relationship_advice"
+  },
+  {
+    "name": "relationships",
+    "display": "r/relationships"
+  },
+  {
+    "name": "pettyrevenge",
+    "display": "r/pettyrevenge"
+  },
+  {
+    "name": "ProRevenge",
+    "display": "r/ProRevenge"
+  },
+  {
+    "name": "NuclearRevenge",
+    "display": "r/NuclearRevenge"
+  },
+  {
+    "name": "MaliciousCompliance",
+    "display": "r/MaliciousCompliance"
+  },
+  {
+    "name": "entitledparents",
+    "display": "r/entitledparents"
+  },
+  {
+    "name": "ChoosingBeggars",
+    "display": "r/ChoosingBeggars"
+  },
+  {
+    "name": "JUSTNOMIL",
+    "display": "r/JUSTNOMIL"
+  },
+  {
+    "name": "unpopularopinion",
+    "display": "r/unpopularopinion"
+  },
+  {
+    "name": "TooAfraidToAsk",
+    "display": "r/TooAfraidToAsk"
+  },
+  {
+    "name": "NoStupidQuestions",
+    "display": "r/NoStupidQuestions"
+  },
+  {
+    "name": "changemyview",
+    "display": "r/changemyview"
+  },
+  {
+    "name": "OutOfTheLoop",
+    "display": "r/OutOfTheLoop"
+  },
+  {
+    "name": "explainlikeimfive",
+    "display": "r/explainlikeimfive"
+  },
+  {
+    "name": "AskHistorians",
+    "display": "r/AskHistorians"
+  },
+  {
+    "name": "AskScience",
+    "display": "r/AskScience"
+  },
+  {
+    "name": "AskMen",
+    "display": "r/AskMen"
+  },
+  {
+    "name": "AskWomen",
+    "display": "r/AskWomen"
+  },
+  {
+    "name": "AskAnAmerican",
+    "display": "r/AskAnAmerican"
+  },
+  {
+    "name": "gaming",
+    "display": "r/gaming"
+  },
+  {
+    "name": "Cooking",
+    "display": "r/Cooking"
+  },
+  {
+    "name": "Fitness",
+    "display": "r/Fitness"
+  },
+  {
+    "name": "books",
+    "display": "r/books"
+  },
+  {
+    "name": "movies",
+    "display": "r/movies"
+  },
+  {
+    "name": "antiwork",
+    "display": "r/antiwork"
+  },
+  {
+    "name": "jobs",
+    "display": "r/jobs"
+  },
+  {
+    "name": "careerguidance",
+    "display": "r/careerguidance"
+  },
+  {
+    "name": "personalfinance",
+    "display": "r/personalfinance"
+  },
+  {
+    "name": "Frugal",
+    "display": "r/Frugal"
+  },
+  {
+    "name": "povertyfinance",
+    "display": "r/povertyfinance"
+  },
+  {
+    "name": "programming",
+    "display": "r/programming"
+  },
+  {
+    "name": "webdev",
+    "display": "r/webdev"
+  },
+  {
+    "name": "sysadmin",
+    "display": "r/sysadmin"
+  },
+  {
+    "name": "technology",
+    "display": "r/technology"
+  },
+  {
+    "name": "privacy",
+    "display": "r/privacy"
+  },
+  {
+    "name": "CasualUK",
+    "display": "r/CasualUK"
+  },
+  {
+    "name": "australia",
+    "display": "r/australia"
+  },
+  {
+    "name": "canada",
+    "display": "r/canada"
+  },
+  {
+    "name": "Showerthoughts",
+    "display": "r/Showerthoughts"
+  },
+  {
+    "name": "mildlyinfuriating",
+    "display": "r/mildlyinfuriating"
+  },
+  {
+    "name": "BoardGames",
+    "display": "r/BoardGames"
+  },
+  {
+    "name": "DnD",
+    "display": "r/DnD"
+  },
+  {
+    "name": "legaladvice",
+    "display": "r/legaladvice"
+  },
+  {
+    "name": "Teachers",
+    "display": "r/Teachers"
+  },
+  {
+    "name": "nursing",
+    "display": "r/nursing"
+  },
+  {
+    "name": "TalesFromRetail",
+    "display": "r/TalesFromRetail"
+  },
+  {
+    "name": "TalesFromTechSupport",
+    "display": "r/TalesFromTechSupport"
+  },
+  {
+    "name": "LifeProTips",
+    "display": "r/LifeProTips"
+  },
+  {
+    "name": "todayilearned",
+    "display": "r/todayilearned"
+  },
+  {
+    "name": "Parenting",
+    "display": "r/Parenting"
+  },
+  {
+    "name": "dating_advice",
+    "display": "r/dating_advice"
+  },
+  {
+    "name": "socialskills",
+    "display": "r/socialskills"
+  },
+  {
+    "name": "selfimprovement",
+    "display": "r/selfimprovement"
+  },
+  {
+    "name": "getdisciplined",
+    "display": "r/getdisciplined"
+  },
+  {
+    "name": "DecidingToBeBetter",
+    "display": "r/DecidingToBeBetter"
+  },
+  {
+    "name": "financialindependence",
+    "display": "r/financialindependence"
+  },
+  {
+    "name": "investing",
+    "display": "r/investing"
+  },
+  {
+    "name": "RealEstate",
+    "display": "r/RealEstate"
+  },
+  {
+    "name": "Entrepreneur",
+    "display": "r/Entrepreneur"
+  },
+  {
+    "name": "smallbusiness",
+    "display": "r/smallbusiness"
+  },
+  {
+    "name": "startups",
+    "display": "r/startups"
+  },
+  {
+    "name": "cscareerquestions",
+    "display": "r/cscareerquestions"
+  },
+  {
+    "name": "learnprogramming",
+    "display": "r/learnprogramming"
+  },
+  {
+    "name": "Python",
+    "display": "r/Python"
+  },
+  {
+    "name": "javascript",
+    "display": "r/javascript"
+  },
+  {
+    "name": "react",
+    "display": "r/react"
+  },
+  {
+    "name": "linux",
+    "display": "r/linux"
+  },
+  {
+    "name": "MealPrepSunday",
+    "display": "r/MealPrepSunday"
+  },
+  {
+    "name": "EatCheapAndHealthy",
+    "display": "r/EatCheapAndHealthy"
+  },
+  {
+    "name": "running",
+    "display": "r/running"
+  },
+  {
+    "name": "loseit",
+    "display": "r/loseit"
+  },
+  {
+    "name": "yoga",
+    "display": "r/yoga"
+  },
+  {
+    "name": "meditation",
+    "display": "r/meditation"
+  },
+  {
+    "name": "mentalhealth",
+    "display": "r/mentalhealth"
+  },
+  {
+    "name": "anxiety",
+    "display": "r/anxiety"
+  },
+  {
+    "name": "depression",
+    "display": "r/depression"
+  },
+  {
+    "name": "ADHD",
+    "display": "r/ADHD"
+  },
+  {
+    "name": "autism",
+    "display": "r/autism"
+  },
+  {
+    "name": "TwoXChromosomes",
+    "display": "r/TwoXChromosomes"
+  },
+  {
+    "name": "MensLib",
+    "display": "r/MensLib"
+  },
+  {
+    "name": "Feminism",
+    "display": "r/Feminism"
+  },
+  {
+    "name": "politics",
+    "display": "r/politics"
+  },
+  {
+    "name": "worldnews",
+    "display": "r/worldnews"
+  },
+  {
+    "name": "news",
+    "display": "r/news"
+  },
+  {
+    "name": "science",
+    "display": "r/science"
+  },
+  {
+    "name": "Futurology",
+    "display": "r/Futurology"
+  },
+  {
+    "name": "philosophy",
+    "display": "r/philosophy"
+  },
+  {
+    "name": "history",
+    "display": "r/history"
+  },
+  {
+    "name": "anime",
+    "display": "r/anime"
+  },
+  {
+    "name": "travel",
+    "display": "r/travel"
+  },
+  {
+    "name": "solotravel",
+    "display": "r/solotravel"
+  },
+  {
+    "name": "camping",
+    "display": "r/camping"
+  },
+  {
+    "name": "hiking",
+    "display": "r/hiking"
+  },
+  {
+    "name": "WritingPrompts",
+    "display": "r/WritingPrompts"
+  },
+  {
+    "name": "writing",
+    "display": "r/writing"
+  },
+  {
+    "name": "Jokes",
+    "display": "r/Jokes"
+  },
+  {
+    "name": "AskOldPeople",
+    "display": "r/AskOldPeople"
+  },
+  {
+    "name": "AskEngineers",
+    "display": "r/AskEngineers"
+  },
+  {
+    "name": "Advice",
+    "display": "r/Advice"
+  },
+  {
+    "name": "internetparents",
+    "display": "r/internetparents"
+  },
+  {
+    "name": "needadvice",
+    "display": "r/needadvice"
+  },
+  {
+    "name": "whatisthisthing",
+    "display": "r/whatisthisthing"
+  },
+  {
+    "name": "tipofmytongue",
+    "display": "r/tipofmytongue"
+  },
+  {
+    "name": "NoSleep",
+    "display": "r/NoSleep"
+  },
+  {
+    "name": "creepyencounters",
+    "display": "r/creepyencounters"
+  },
+  {
+    "name": "LetsNotMeet",
+    "display": "r/LetsNotMeet"
+  },
+  {
+    "name": "AmIOverreacting",
+    "display": "r/AmIOverreacting"
+  },
+  {
+    "name": "bridezillas",
+    "display": "r/bridezillas"
+  },
+  {
+    "name": "weddingplanning",
+    "display": "r/weddingplanning"
+  },
+  {
+    "name": "college",
+    "display": "r/college"
+  },
+  {
+    "name": "GradSchool",
+    "display": "r/GradSchool"
+  },
+  {
+    "name": "StudentLoans",
+    "display": "r/StudentLoans"
+  },
+  {
+    "name": "beyondthebump",
+    "display": "r/beyondthebump"
+  },
+  {
+    "name": "daddit",
+    "display": "r/daddit"
+  },
+  {
+    "name": "Mommit",
+    "display": "r/Mommit"
+  },
+  {
+    "name": "childfree",
+    "display": "r/childfree"
+  },
+  {
+    "name": "breakingmom",
+    "display": "r/breakingmom"
+  },
+  {
+    "name": "survivinginfidelity",
+    "display": "r/survivinginfidelity"
+  },
+  {
+    "name": "divorce",
+    "display": "r/divorce"
+  },
+  {
+    "name": "stepparents",
+    "display": "r/stepparents"
+  },
+  {
+    "name": "raisedbynarcissists",
+    "display": "r/raisedbynarcissists"
+  },
+  {
+    "name": "insaneparents",
+    "display": "r/insaneparents"
+  },
+  {
+    "name": "toxicparents",
+    "display": "r/toxicparents"
+  },
+  {
+    "name": "audiophile",
+    "display": "r/audiophile"
+  },
+  {
+    "name": "headphones",
+    "display": "r/headphones"
+  },
+  {
+    "name": "Guitar",
+    "display": "r/Guitar"
+  },
+  {
+    "name": "piano",
+    "display": "r/piano"
+  },
+  {
+    "name": "WeAreTheMusicMakers",
+    "display": "r/WeAreTheMusicMakers"
+  },
+  {
+    "name": "gamedev",
+    "display": "r/gamedev"
+  },
+  {
+    "name": "indiegaming",
+    "display": "r/indiegaming"
+  },
+  {
+    "name": "ProgrammerHumor",
+    "display": "r/ProgrammerHumor"
+  },
+  {
+    "name": "DataHoarder",
+    "display": "r/DataHoarder"
+  },
+  {
+    "name": "homelab",
+    "display": "r/homelab"
+  },
+  {
+    "name": "Homebrewing",
+    "display": "r/Homebrewing"
+  },
+  {
+    "name": "BuyItForLife",
+    "display": "r/BuyItForLife"
+  },
+  {
+    "name": "ZeroWaste",
+    "display": "r/ZeroWaste"
+  },
+  {
+    "name": "minimalism",
+    "display": "r/minimalism"
+  },
+  {
+    "name": "vandwellers",
+    "display": "r/vandwellers"
+  },
+  {
+    "name": "TinyHouses",
+    "display": "r/TinyHouses"
+  },
+  {
+    "name": "Landlord",
+    "display": "r/Landlord"
+  },
+  {
+    "name": "FirstTimeHomeBuyer",
+    "display": "r/FirstTimeHomeBuyer"
+  },
+  {
+    "name": "MovingToLosAngeles",
+    "display": "r/MovingToLosAngeles"
+  },
+  {
+    "name": "AskNYC",
+    "display": "r/AskNYC"
+  },
+  {
+    "name": "london",
+    "display": "r/london"
+  },
+  {
+    "name": "germany",
+    "display": "r/germany"
+  },
+  {
+    "name": "japan",
+    "display": "r/japan"
+  },
+  {
+    "name": "india",
+    "display": "r/india"
+  },
+  {
+    "name": "Philippines",
+    "display": "r/Philippines"
+  },
+  {
+    "name": "unitedkingdom",
+    "display": "r/unitedkingdom"
+  },
+  {
+    "name": "europe",
+    "display": "r/europe"
+  },
+  {
+    "name": "IDontWorkHereLady",
+    "display": "r/IDontWorkHereLady"
+  },
+  {
+    "name": "BestofRedditorUpdates",
+    "display": "r/BestofRedditorUpdates"
+  },
+  {
+    "name": "truechildfree",
+    "display": "r/truechildfree"
+  },
+  {
+    "name": "Accounting",
+    "display": "r/Accounting"
+  },
+  {
+    "name": "engineering",
+    "display": "r/engineering"
+  },
+  {
+    "name": "medicine",
+    "display": "r/medicine"
+  },
+  {
+    "name": "law",
+    "display": "r/law"
+  }
+]

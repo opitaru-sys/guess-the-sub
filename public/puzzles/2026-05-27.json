@@ -1,0 +1,19 @@
+{
+  "id": 33,
+  "date": "2026-05-27",
+  "post": {
+    "title": "Anyone else feeling overwhelmed?",
+    "body_preview": "I've worked in tech for 30 years and its always been busy but now it just feels overwhelming.   \nTheres just so much to be across, its to much...",
+    "is_link_post": false,
+    "link_domain": null,
+    "permalink": "/r/sysadmin/comments/1t56wmq/anyone_else_feeling_overwhelmed/"
+  },
+  "answer": {
+    "subreddit": "sysadmin",
+    "display_name": "r/sysadmin",
+    "subscribers_range": "1M - 3M",
+    "created_year": 2008,
+    "description": "A reddit dedicated to the profession of Computer System Administration.",
+    "category": "Tech & Programming"
+  }
+}
