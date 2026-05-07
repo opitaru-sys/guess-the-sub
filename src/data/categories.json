@@ -19,7 +19,6 @@
   "entitledparents": "Stories & Confessions",
   "ChoosingBeggars": "Stories & Confessions",
   "IDontWorkHereLady": "Stories & Confessions",
-
   "relationship_advice": "Relationships & Family",
   "relationships": "Relationships & Family",
   "dating_advice": "Relationships & Family",
@@ -39,7 +38,6 @@
   "Mommit": "Relationships & Family",
   "childfree": "Relationships & Family",
   "truechildfree": "Relationships & Family",
-
   "Advice": "Advice & Self-Improvement",
   "internetparents": "Advice & Self-Improvement",
   "needadvice": "Advice & Self-Improvement",
@@ -57,7 +55,6 @@
   "GradSchool": "Advice & Self-Improvement",
   "StudentLoans": "Advice & Self-Improvement",
   "progresspics": "Advice & Self-Improvement",
-
   "AskReddit": "Questions & Discussion",
   "AskHistorians": "Questions & Discussion",
   "AskScience": "Questions & Discussion",
@@ -79,7 +76,6 @@
   "todayilearned": "Questions & Discussion",
   "LifeProTips": "Questions & Discussion",
   "philosophy": "Questions & Discussion",
-
   "antiwork": "Career & Money",
   "jobs": "Career & Money",
   "personalfinance": "Career & Money",
@@ -97,7 +93,6 @@
   "medicine": "Career & Money",
   "law": "Career & Money",
   "engineering": "Career & Money",
-
   "programming": "Tech & Programming",
   "webdev": "Tech & Programming",
   "sysadmin": "Tech & Programming",
@@ -117,7 +112,6 @@
   "headphones": "Tech & Programming",
   "gamedev": "Tech & Programming",
   "indiegaming": "Tech & Programming",
-
   "gaming": "Hobbies & Crafts",
   "pcmasterrace": "Hobbies & Crafts",
   "buildapc": "Hobbies & Crafts",
@@ -147,14 +141,10 @@
   "Jokes": "Hobbies & Crafts",
   "Coffee": "Hobbies & Crafts",
   "tea": "Hobbies & Crafts",
-
   "Fitness": "Lifestyle & Wellness",
   "running": "Lifestyle & Wellness",
   "yoga": "Lifestyle & Wellness",
   "meditation": "Lifestyle & Wellness",
-  "mentalhealth": "Lifestyle & Wellness",
-  "anxiety": "Lifestyle & Wellness",
-  "depression": "Lifestyle & Wellness",
   "ADHD": "Lifestyle & Wellness",
   "autism": "Lifestyle & Wellness",
   "SkincareAddiction": "Lifestyle & Wellness",
@@ -185,7 +175,6 @@
   "CrappyDesign": "Lifestyle & Wellness",
   "oddlysatisfying": "Lifestyle & Wellness",
   "oddlyterrifying": "Lifestyle & Wellness",
-
   "politics": "News & Society",
   "worldnews": "News & Society",
   "news": "News & Society",
@@ -196,7 +185,6 @@
   "TwoXChromosomes": "News & Society",
   "MensLib": "News & Society",
   "Feminism": "News & Society",
-
   "CasualUK": "Locations & Sports",
   "australia": "Locations & Sports",
   "canada": "Locations & Sports",

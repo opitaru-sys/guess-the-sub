@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react'
-import subreddits from '../data/subreddits.json'
+import subreddits from '../data/autocomplete.json'
 
 export default function GuessInput({ onGuess, disabled, guessedNames }) {
   const [query, setQuery] = useState('')
