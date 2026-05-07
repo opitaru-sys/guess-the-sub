@@ -55,7 +55,7 @@ export default function GuessInput({ onGuess, disabled, guessedNames }) {
     if (match) {
       handleSelect(match)
     } else {
-      setError('Not in our list — pick from the dropdown')
+      setError('Not in our list. Pick from the dropdown.')
       setTimeout(() => setError(''), 2500)
     }
   }

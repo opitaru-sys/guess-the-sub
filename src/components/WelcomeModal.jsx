@@ -6,7 +6,7 @@ export default function WelcomeModal({ onTutorial, onSkip }) {
           <div className="text-4xl mb-2">👋</div>
           <h3 className="text-xl font-bold text-text-primary">Welcome to Guess the Sub</h3>
           <p className="text-text-muted text-sm mt-2 leading-relaxed">
-            Each day, a real Reddit post — your job is to name the subreddit. 6 guesses, hints between.
+            Each day, a real Reddit post. Your job: name the subreddit. 6 guesses, hints between.
           </p>
         </div>
 
@@ -21,7 +21,7 @@ export default function WelcomeModal({ onTutorial, onSkip }) {
             onClick={onSkip}
             className="w-full bg-bg-elevated hover:bg-bg-elevated/70 text-text-primary font-medium py-3 rounded-lg transition-colors cursor-pointer"
           >
-            Skip — go to today's puzzle
+            Skip to today's puzzle
           </button>
         </div>
       </div>

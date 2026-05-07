@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react'
 
 function fmtPct(n) {
-  if (n == null) return '—'
+  if (n == null) return '-'
   return `${Math.round(n * 100)}%`
 }
 
 function fmtAvg(n) {
-  if (n == null) return '—'
+  if (n == null) return '-'
   return n.toFixed(1)
 }
 
@@ -136,7 +136,7 @@ function Stat({ label, value }) {
 
 function DistBar({ dist, losses }) {
   const total = dist.reduce((a, b) => a + b, 0) + losses
-  if (total === 0) return <span className="text-text-muted text-xs">—</span>
+  if (total === 0) return <span className="text-text-muted text-xs">-</span>
   const segs = [...dist.map((c, i) => ({ count: c, color: 'bg-accent', label: `${i + 1}` })),
     { count: losses, color: 'bg-wrong', label: 'X' }]
   return (

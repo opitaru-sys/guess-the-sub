@@ -110,7 +110,7 @@ export default function GameBoard({ puzzle, date, isTutorial = false, onTutorial
         {isTutorial && (
           <div className="text-sm text-text-muted bg-accent/5 border border-accent/20 rounded-lg px-4 py-3 leading-relaxed">
             <strong className="text-accent">Tutorial:</strong> Try to guess the subreddit. Wrong guesses
-            reveal hints. Take your time — this run won't affect your stats.
+            reveal hints. Take your time. This run won't affect your stats.
           </div>
         )}
 

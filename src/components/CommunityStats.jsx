@@ -1,12 +1,12 @@
 import { deriveCommunity } from '../utils/communityStats'
 
 function fmtPct(n) {
-  if (n == null) return '—'
+  if (n == null) return '-'
   return `${Math.round(n * 100)}%`
 }
 
 function fmtAvg(n) {
-  if (n == null) return '—'
+  if (n == null) return '-'
   return n.toFixed(1)
 }
 
