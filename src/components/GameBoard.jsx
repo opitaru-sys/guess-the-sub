@@ -2,7 +2,7 @@ import { useState, useMemo, useEffect, useCallback } from 'react'
 import { useGameState } from '../hooks/useGameState'
 import { useStats } from '../hooks/useStats'
 import { getPuzzleNumber } from '../utils/dateUtils'
-import { recordCompletion, fetchStats } from '../utils/communityStats'
+import { recordCompletion, fetchStats, deriveCommunity } from '../utils/communityStats'
 import PostCard from './PostCard'
 import HintArea from './HintArea'
 import GuessInput from './GuessInput'
@@ -50,19 +50,18 @@ export default function GameBoard({ puzzle, date, isTutorial = false, onTutorial
   })
 
   useEffect(() => {
-    if (isTutorial || !completed || communityFetched || communityLoading) return
-    setCommunityLoading(true)
+    if (isTutorial || communityFetched) return
     fetchStats(date).then(s => {
       setCommunityStats(s)
-      setCommunityLoading(false)
       setCommunityFetched(true)
     })
-  }, [completed, isTutorial, date, communityFetched, communityLoading])
+  }, [isTutorial, date, communityFetched])
 
   const [showResults, setShowResults] = useState(false)
   const [showHowToPlay, setShowHowToPlay] = useState(false)
 
   const puzzleNumber = isTutorial ? null : getPuzzleNumber(date)
+  const community = isTutorial ? null : deriveCommunity(communityStats)
 
   const guessedNames = useMemo(
     () => new Set(guesses.map(g => g.name.toLowerCase())),
@@ -90,7 +89,11 @@ export default function GameBoard({ puzzle, date, isTutorial = false, onTutorial
         <div className="text-center">
           <h1 className="text-lg font-bold text-text-primary tracking-tight">Guess the Sub</h1>
           <p className="text-xs text-text-muted">
-            {isTutorial ? 'Tutorial' : `Puzzle #${puzzleNumber}`}
+            {isTutorial
+              ? 'Tutorial'
+              : community && community.completed > 0
+                ? `Puzzle #${puzzleNumber} · ${community.completed.toLocaleString()} played`
+                : `Puzzle #${puzzleNumber}`}
           </p>
         </div>
         {isTutorial ? (
