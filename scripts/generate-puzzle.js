@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync, existsSync, readdirSync } from 'fs'
 import { join, dirname } from 'path'
 import { fileURLToPath } from 'url'
+import { cleanDescription } from './clean-description.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, '..')
@@ -138,7 +139,7 @@ async function generateForSubreddit(subredditName) {
       display_name: `r/${subredditName}`,
       subscribers_range: subscriberRange(about.subscribers || 0),
       created_year: new Date((about.created_utc || 0) * 1000).getFullYear(),
-      description: about.public_description || about.title || '',
+      description: cleanDescription(about.public_description || about.title || '', subredditName),
       category: categoriesMap[subredditName] || 'Uncategorized',
     },
   }
