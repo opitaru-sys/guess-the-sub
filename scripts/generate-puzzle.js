@@ -91,6 +91,45 @@ function cleanTitle(title) {
     .trim()
 }
 
+async function fetchTopComment(permalink, subredditName) {
+  try {
+    const data = await fetchJSON(
+      `https://www.reddit.com${permalink}.json?limit=15&sort=top`
+    )
+    if (!Array.isArray(data) || data.length < 2) return null
+    const comments = data[1].data.children
+      .map(c => c.data)
+      .filter(c =>
+        c.body &&
+        c.body !== '[deleted]' &&
+        c.body !== '[removed]' &&
+        !c.distinguished &&
+        !c.stickied
+      )
+      .sort((a, b) => (b.score || 0) - (a.score || 0))
+
+    if (comments.length === 0) return null
+
+    let body = comments[0].body
+      .replace(/\s+/g, ' ')
+      .replace(/\*+/g, '')
+      .replace(/&amp;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .trim()
+
+    // Strip subreddit name leaks
+    const subEsc = subredditName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+    body = body.replace(new RegExp('/?r/' + subEsc + '\\b', 'gi'), '[hidden]')
+    body = body.replace(new RegExp('\\b' + subEsc + '\\b', 'gi'), '[hidden]')
+
+    if (body.length > 220) body = body.slice(0, 217) + '...'
+    return body
+  } catch {
+    return null
+  }
+}
+
 async function generateForSubreddit(subredditName) {
   console.log(`  Fetching posts from r/${subredditName}...`)
   const postsData = await fetchJSON(
@@ -115,6 +154,11 @@ async function generateForSubreddit(subredditName) {
   )
   const about = aboutData.data
 
+  await sleep(DELAY_MS)
+
+  console.log(`  Fetching top comment...`)
+  const topComment = await fetchTopComment(post.permalink, subredditName)
+
   const isLinkPost = !post.is_self
   let bodyPreview = null
   if (post.is_self && post.selftext) {
@@ -130,6 +174,7 @@ async function generateForSubreddit(subredditName) {
     post: {
       title: cleanTitle(post.title),
       body_preview: bodyPreview,
+      top_comment: topComment,
       is_link_post: isLinkPost,
       link_domain: isLinkPost ? post.domain : null,
       permalink: post.permalink,

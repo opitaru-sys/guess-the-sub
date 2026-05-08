@@ -18,9 +18,9 @@ export default function HowToPlay({ onClose }) {
 
           <ol className="space-y-2 pl-4">
             {[
-              'Post body preview or link domain',
-              'Subscriber count range',
-              'Subreddit creation year',
+              'Post body preview',
+              'Top comment from the thread',
+              'Subscriber count and creation year',
               'Topic category',
               'Subreddit description',
             ].map((hint, i) => (
