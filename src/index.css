@@ -13,16 +13,26 @@
   --color-border: #2a2a4a;
 }
 
-body {
+html, body {
   background-color: var(--color-bg-deep);
   color: var(--color-text-primary);
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  min-height: 100dvh;
   margin: 0;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: contain;
+}
+
+body {
+  min-height: 100dvh;
 }
 
 #root {
   min-height: 100dvh;
+}
+
+button, a, input {
+  touch-action: manipulation;
 }
 
 @keyframes fade-slide-in {

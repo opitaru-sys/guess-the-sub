@@ -9,6 +9,7 @@ import GuessInput from './GuessInput'
 import GuessHistory from './GuessHistory'
 import ResultsModal from './ResultsModal'
 import HowToPlay from './HowToPlay'
+import Footer from './Footer'
 
 export default function GameBoard({ puzzle, date, isTutorial = false, onTutorialDone }) {
   const { stats, recordWin, recordLoss } = useStats()
@@ -172,6 +173,8 @@ export default function GameBoard({ puzzle, date, isTutorial = false, onTutorial
           </div>
         )}
       </main>
+
+      <Footer />
 
       {showResults && !isTutorial && (
         <ResultsModal
